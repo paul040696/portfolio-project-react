@@ -3,6 +3,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
 
+import Chat_app from "../../assets/img/projects/Chat-app.webp";
 import Kotlin_app from "../../assets/img/projects/Kotlin_project.webp";
 import Java_app from "../../assets/img/projects/Java_project.webp";
 import Portfolio_app from "../../assets/img/projects/Portfolio_app.webp";
@@ -30,6 +31,100 @@ const TimeLine = () => {
       <h1 className="pt=3 text-center font-details-b pb-3">Projects</h1>
       <Timeline>
         <Events>
+          {/* Chat app */}
+          <ImageEvent
+            date="27/03/2021"
+            className="text-center"
+            text="<strong>Chat app</strong>"
+            src={Chat_app}
+            alt="Chat app"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      Project Details
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description: </strong> This project was
+                        developed using React and chat-engine API.
+                        <hr />
+                        <strong>Used technologies: </strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={I_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={I_CSS3}
+                                alt="CSS"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={I_REACT}
+                                alt="REACT"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              REACT
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={I_BOOTSTRAP4}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React Bootstrap
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://hungry-bartik-f0e48d.netlify.app"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/paul040696/chat-app"
+                  target="_blank"
+                >
+                  Source Code
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Portfolio app */}
 
           <ImageEvent
@@ -117,7 +212,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
+                  href="https://cranky-mccarthy-de4959.netlify.app/"
                   target="_blank"
                 >
                   SEE LIVE
