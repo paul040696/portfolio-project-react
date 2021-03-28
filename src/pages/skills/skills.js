@@ -1,28 +1,20 @@
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_SASS from "../../assets/img/skills/sass-1.svg";
-import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_REDUX from "../../assets/img/skills/redux.svg";
-import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_FLASK from "../../assets/img/skills/flask.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
+import L_CPLUSPLUS from "../../assets/img/skills/C++.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
-import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
-import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-import L_GOLANG from "../../assets/img/skills/go-6.svg";
+import L_JAVA from "../../assets/img/skills/java.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
+import L_NETLIFY from "../../assets/img/skills/netlify.png";
+import L_KOTLIN from "../../assets/img/skills/kotlin.png";
+import L_FIREBASE from "../../assets/img/skills/firebase.png";
 
 export const skills = {
   frontend: [
@@ -52,18 +44,6 @@ export const skills = {
       skillName: "React JS",
     },
     {
-      link: "https://redux.js.org/",
-      imgAltText: "Redux",
-      imgSrc: L_REDUX,
-      skillName: "Redux",
-    },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
-    },
-    {
       link: "https://material-ui.com/",
       imgAltText: "Material-UI",
       imgSrc: L_MATERIALUI,
@@ -76,18 +56,26 @@ export const skills = {
       skillName: "React Bootstrap",
     },
   ],
+  mobile: [
+    {
+      link: "https://developer.android.com/kotlin",
+      imgAltText: "Kotlin",
+      imgSrc: L_KOTLIN,
+      skillName: "Kotlin",
+    },
+    {
+      link: "https://www.java.com/en/",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "Java",
+    },
+  ],
   backend: [
     {
       link: "https://nodejs.org/en/",
       imgAltText: "Node.js",
       imgSrc: L_NODE_JS,
       skillName: "Node.js",
-    },
-    {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
     },
   ],
   hostingPlatforms: [
@@ -98,10 +86,10 @@ export const skills = {
       skillName: "Heroku",
     },
     {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
+      link: "https://www.netlify.com/",
+      imgAltText: "Netlify",
+      imgSrc: L_NETLIFY,
+      skillName: "Netlify",
     },
   ],
   programmingLanguages: [
@@ -112,16 +100,28 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+      link: "https://www.java.com/en/",
+      imgAltText: "Java",
+      imgSrc: L_JAVA,
+      skillName: "Java",
     },
     {
       link: "https://www.python.org/",
       imgAltText: "Python",
       imgSrc: L_PYTHON,
       skillName: "Python",
+    },
+    {
+      link: "https://developer.android.com/kotlin",
+      imgAltText: "Kotlin",
+      imgSrc: L_KOTLIN,
+      skillName: "Kotlin",
+    },
+    {
+      link: "https://www.cplusplus.com/",
+      imgAltText: "C++",
+      imgSrc: L_CPLUSPLUS,
+      skillName: "C++",
     },
   ],
   databases: [
@@ -132,16 +132,17 @@ export const skills = {
       skillName: "PostgreSQL",
     },
     {
-      link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
-    },
-    {
       link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
+    },
+    {
+      link:
+        "https://firebase.google.com/products/realtime-database?gclid=Cj0KCQjw0oCDBhCPARIsAII3C_FrkmcQ4YSewmgNxEW_oTD-bpcQyG6MZapJZFYNI-psEhd1J8NuKAQaAuEJEALw_wcB&gclsrc=aw.ds",
+      imgAltText: "Firebase Realtime Database",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase Realtime Database",
     },
   ],
   versionControl: [

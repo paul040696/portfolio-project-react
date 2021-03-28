@@ -7,6 +7,8 @@
 }
 
 .jumbo-style {
+  width: 100%;
+  background-size: cover;
   background-image: linear-gradient(
     -225deg,
     #2cd8d5 0%,
@@ -16,6 +18,6 @@
 }
 
 .body-title-style {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
 }
